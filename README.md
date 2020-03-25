@@ -1,6 +1,6 @@
 # Apache Samza with apache kafka sample project
 
-Head on the branch sample/samza for source code.
+Head on to branch sample/samza for source code.
 
 Instructions:
 
