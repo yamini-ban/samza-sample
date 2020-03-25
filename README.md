@@ -7,9 +7,9 @@
 3) To see the project working, you need to run producer for "test" topic and consumer for "testOut" topic.
 
 Note: Zookeeper should be running on port 2181 and server/broker on 9092 or you can change accordingly in 
-        application.conf file.
+        src/main/resources/application.conf file.
         
-As the basic setup is ready, now follow these steps:
+As the basic setup is ready, now you can follow these steps:
         
         - git clone https://github.com/yamini-ban/samza-sample.git
         - cd samza-sample
