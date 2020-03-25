@@ -1,0 +1,18 @@
+# Apache Samza with apache kafka sample project
+
+1) To set up this project, the minimal requirement is to have kafka zookeeper and server up and running.
+
+2) Create two topics one acting as input stream ("test") and another as output stream ("testOut").
+
+3) To see the project working, you need to run producer for "test" topic and consumer for "testOut" topic.
+
+Note: Zookeeper should be running on port 2181 and server/broker on 9092 or you can change accordingly in 
+        application.conf file.
+        
+As the basic setup is ready, now follow these steps:
+        
+        - git clone https://github.com/yamini-ban/samza-sample.git
+        - cd samza-sample
+        - export BASE_DIR=`pwd`
+        - sbt run
+
