@@ -1,5 +1,9 @@
 # Apache Samza with apache kafka sample project
 
+Head on the branch sample/samza for source code.
+
+Instructions:
+
 1) To set up this project, the minimal requirement is to have kafka zookeeper and server up and running.
 
 2) Create two topics one acting as input stream ("test") and another as output stream ("testOut").
