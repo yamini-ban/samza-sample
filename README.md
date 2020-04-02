@@ -20,3 +20,5 @@ As the basic setup is ready, now you can follow these steps:
         - export BASE_DIR=`pwd`
         - sbt run
 
+Now, produce some message in the topic "test", and observe(consume) all the messages which contain "hi" will appear on "testOut"
+topic.
