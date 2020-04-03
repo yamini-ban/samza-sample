@@ -16,6 +16,7 @@ class HelloWorld extends StreamApplication {
   /**
    * This method describes the processing logic using Samza’s High Level
    * Streams API in terms of MessageStream operators.
+   *
    * @param appDescriptor holds description of input, output, state and processing logic.
    */
   override def describe(appDescriptor: StreamApplicationDescriptor): Unit = {
